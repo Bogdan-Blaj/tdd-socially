@@ -1,0 +1,5 @@
+package com.socialy.user;
+
+public class User {
+
+}

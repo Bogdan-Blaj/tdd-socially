@@ -1,0 +1,5 @@
+package com.socialy.service;
+
+public class UserService {
+
+}

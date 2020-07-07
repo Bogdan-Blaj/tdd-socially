@@ -1,0 +1,5 @@
+1593792640913	Delete element
+1593794196390	Extract local variable 'postForEntity'
+1593795426572	Extract method 'createValidUser'
+1593795464778	Extract constant 'API_1_0_USERS'
+1593806117896	Rename field 'data'

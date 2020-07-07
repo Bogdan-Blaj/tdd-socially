@@ -1,0 +1,22 @@
+package com.socialy.service;
+
+import org.springframework.stereotype.Service;
+
+import com.socialy.repository.UserRepository;
+
+@Service
+public class UserService {
+
+	UserRepository userRepository;
+	
+	//for constructor injections
+	public UserService(UserRepository userRepository) {
+		super();
+		this.userRepository = userRepository;
+	}
+	
+	public User save(User user) {
+		return userRepository.save(user);
+	}
+	
+}
